@@ -39,7 +39,7 @@ async function connectToDatabase() {
 // Call the async function to connect to the database
 connectToDatabase();
 
-app.get("/api/v1/contests", async (req, res) => {
+app.get("/", async (req, res) => {
 
     res.send("WELCOME TO THE CP-ALERT API!!!");
 
